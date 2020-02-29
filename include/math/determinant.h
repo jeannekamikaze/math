@@ -8,8 +8,6 @@ namespace kx {
 /// This returns the determinant:
 ///   | a.x b.x |
 ///   | a.y b.y |
-inline R det (const vec2& a, const vec2& b) {
-    return a.x*b.y - a.y*b.x;
-}
+inline R det(const vec2& a, const vec2& b) { return a.x * b.y - a.y * b.x; }
 
-} // namespace kx
+}  // namespace kx
